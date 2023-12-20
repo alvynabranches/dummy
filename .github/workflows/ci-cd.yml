@@ -7,7 +7,6 @@ on:
 
 env:
   IMAGE: alvynabranches/dummy
-  TAG: ${{ github.sha }}
 
 jobs:
   build-publish:
